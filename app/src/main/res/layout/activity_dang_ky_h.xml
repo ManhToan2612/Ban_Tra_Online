@@ -8,13 +8,7 @@
     android:gravity="center"
     android:padding="16dp"
     tools:context=".DangKy_H">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ĐĂNG KÝ"
-        android:padding="10dp"
-        android:textSize="50dp"
-        />
+
     <!-- Logo -->
     <ImageView
         android:id="@+id/logoImage"
@@ -22,7 +16,14 @@
         android:layout_height="100dp"
         android:src="@drawable/logo1"
         android:contentDescription="App Logo" />
-
+    <!-- Doimatkhau -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:padding="10dp"
+        android:textSize="40dp"
+        />
 
     <!-- Username Input -->
     <EditText
